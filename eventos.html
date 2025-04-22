@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x.icon">
+    <title>dwba4-semana-05-PT3031608</title>
+  </head>
+   <body>
+    <div style="display: flex; justify-content: flex-end; padding: 10px;">
+       <a href="index.html">HOME |</a><a href="eventos.html">EVENTOS |</a><a href="contato.html"> CONTATO | </a><a href="sobre.html">SOBRE | </a><a href="entrar.html">ENTRAR</a>
+    </div>
+     <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/Logo.jpg">
+     <p></p>
+     <h2>Inscreva-se</h2>
+     <form>
+     <fieldset>
+         Estado:
+       <select name="eventos">
+         <option value="">-- Selecione --</option>
+         <option value="VSA">Voe Sem Asas</option>
+         <option value="FJ">Festa Junina</option>
+         <option value="ST">Semana de Tecnologia</option>
+       </select>
+     </fieldset>
+     <fieldset>
+       <legend>Informações de Acesso:</legend>
+         Usuário<input name="usuario" required autocomplete="on"><br/>
+         <p></p>
+         Senha<input name="senha" type="password"required><br/>
+         <p></p>
+         Confirme a Senha<input name="confirmsenha" type="password"required><br/>
+     </fieldset>
+     <fieldset>
+       <legend>Informações Pessoais:</legend>
+         Nome Completo<input name="nome" autocomplete="on"><br/>
+         <p></p>
+         E-mail<input type="email" name="email" autocomplete="on"><br/>
+         <p></p>
+         Celular<input type="tel" name="tel">(99) 99999-9999<br/>
+         <p></p>
+       <fieldset>
+         <legend>Sexo</legend>
+           Masculino <input type="radio" value="masc" name="genero">
+           Feminino <input type="radio" value="masc" name="genero">
+       </fieldset>
+         <p></p>
+          Data de nascimento<input type="date" name="datanasc"><br/>
+          <p></p>
+          Cor favorita<input type="color" name="corfav"><br/>
+          <p></p>
+          Perfil no github<input type="url" name="perfilgit"><br/>
+          <p></p>
+      </fieldset>
+      <br/>
+      <input type="submit" value="Inscrever">
+      <input type="reset" value="Limpar">
+      </form>
+   </body>
+</html>
